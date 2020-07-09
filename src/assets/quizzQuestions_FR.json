@@ -1,0 +1,368 @@
+{
+    "themes": [
+        {
+            "title": "Qui compose mon équipe ?",
+            "description": "Le management inclusif commence dès l’arrivée d’un collaborateur et implique une réflexion sur la composition de l’équipe. Des profils différents vont-ils parvenir à bien travailler ensemble ? Comment faire pour que l’équipe fonctionne bien ?",
+            "image": "Illus1.svg",
+            "statements": [
+                {
+                    "question": "Quand j’accueille un nouveau collaborateur, je regarde particulièrement :",
+                    "answers": [
+                        {
+                            "entitled": "Son savoir-être et son adaptabilité",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Sa complémentarité avec mon équipe",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Son parcours académique",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Ses expériences précédentes",
+                            "weight": 20
+                        }
+                    ]
+                },
+                {
+                    "question": "Un collaborateur que je veux accueillir veut travailler à 4/5ième alors que tous les autres membres de mon équipe travaillent à plein temps",
+                    "answers": [
+                        {
+                            "entitled": "Je lui explique la difficulté de la situation, et je vois avec lui dans quelle mesure il peut intégrer la dynamique de travail de l’équipe",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je lui propose l’alternative de le laisser travailler chez lui, une fois par semaine, pour lui donner de la flexibilité sans lui faire prendre de retard sur les projets",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "J’ai peur que cette absence crée un décalage avec le reste de l’équipe sur le long terme",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je suis d’accord sur le principe et lui propose de réfléchir ensemble sur une nouvelle façon de travailler",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "Dans un mois, j’intègre dans mon équipe, une personne d’origine étrangère :",
+                    "answers": [
+                        {
+                            "entitled": "Je me renseigne sur le management interculturel",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je sensibilise mon équipe aux problématiques interculturelles",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je prévois son arrivée comme celle de mes autres collaborateurs et je prévois de la traiter comme tout le monde",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je prévois éventuellement d’adapter le mode de travail de mon équipe en fonction des besoins de ce nouveau collaborateur",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "J’ai un apprenti issu d’une école de design, qui veut rejoindre mon équipe de développeurs issus d’écoles d’informatiques :",
+                    "answers": [
+                        {
+                            "entitled": "Je lui conseille une équipe/un département qui correspond mieux à son profil",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je m’assure qu’il a bien compris le poste et lui rappelle la technicité du sujet",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je ne suis pas sûr(e) de savoir/d’être capable d’exploiter ses compétences",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je me demande ce que cette différence pourrait apporter à nos projets",
+                            "weight": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Comment je favorise l’innovation et la créativité dans mon équipe ?",
+            "description": "L’innovation et la créativité sont favorisées par des équipes diverses, d’autant plus quand elles sont animées par un management inclusif. Mais respecter les différences n’est pas toujours facile…",
+            "image": "Illus2.svg",
+            "statements": [
+                {
+                    "question": "Je dois réfléchir à une nouvelle offre client et je souhaite recueillir un maximum d’idées. Je réunis les membres de mon équipe et :",
+                    "answers": [
+                        {
+                            "entitled": "Je leur demande d’exprimer directement leurs idées, afin d’avoir leurs réactions spontanées",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je fais un tour de table pour m’assurer que chacun exprime ses idées",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je les informe du sujet, leur demande d’y réfléchir d’ici un prochain moment d’échange",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Je leur laisse un temps de réflexion pour écrire leurs idées sur des post-its pour ensuite les mettre en commun et voir ce qui s’en dégage.",
+                            "weight": 25
+                        }
+                    ]
+                },
+                {
+                    "question": "Pour développer la créativité dans mon équipe, en dehors de leurs activités principales :",
+                    "answers": [
+                        {
+                            "entitled": "Je laisse mes collaborateurs me dire s’ils souhaitent travailler sur des projets annexes",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je laisse à mes collaborateurs une partie de leur temps de travail pour travailler sur des projets annexes",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "J’attribue les projets annexes à mes collaborateurs qui sont les moins chargés",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "J’attribue les projets annexes à mes collaborateurs les plus créatifs",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "Je compose une équipe pour un projet important et innovant sur le sujet des nouvelles technologies :",
+                    "answers": [
+                        {
+                            "entitled": "Je prends une équipe qui a déjà travaillé ensemble et a fait ses preuves sur d’autres sujets",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je prends une équipe jeune, bien au fait des problématiques des nouvelles technologies",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je prends des experts des nouvelles technologies",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "J’inclus un profil moins expérimenté qui m’a émis le souhait de travailler sur ces sujets",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "Une des personnes de mon équipe me propose un nouvel outil de travail, mais je ne pense pas qu’il corresponde à l’environnement Orange :",
+                    "answers": [
+                        {
+                            "entitled": "J’échange avec elle pour lui expliquer pourquoi je pense que l’outil n’est pas adapté",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je lui demande de m’expliquer pourquoi elle a pensé à cet outil en particulier",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Je lui propose directement de le tester avec l’équipe",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je lui propose d’en discuter avec les autres membres de l’équipe",
+                            "weight": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Comment j’anime mon équipe/projet ?",
+            "description": "L’animation d’une équipe est un facteur clé du management inclusif. Il consiste à faire en sorte que l’animation de l’équipe prenne en compte la diversité des profils.",
+            "image": "Illus3.svg",
+            "statements": [
+                {
+                    "question": "Une personne étrangère qui maitrise approximativement le français participe à ma réunion d’équipe, La réunion débute en anglais, elle commence à tourner en français, ce qui semble faciliter les échanges entre les autres membres de l’équipe :",
+                    "answers": [
+                        {
+                            "entitled": "Je recadre et je demande que la réunion se fasse en anglais",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je demande à la personne si cela la dérange que l’on échange en français en lui assurant que son niveau n’est pas un problème et qu’elle peut nous interrompre pour reformuler en anglais",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Je demande à la personne si cela la dérange que l’on échange en français, quitte à ce qu’elle contribue en anglais si c’est plus facile pour elle",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je demande que l’on repasse en anglais, quitte à ce que des contributions soient faites en français s’il y a des difficultés d’expression ponctuelles",
+                            "weight": 20
+                        }
+                    ]
+                },
+                {
+                    "question": "Quand je dois superviser un projet avec différentes équipes métier :",
+                    "answers": [
+                        {
+                            "entitled": "Je demande des états d’avancement réguliers",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je les laisse s’organiser et venir vers moi pour me faire des retours si nécessaire",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je leur demande de respecter les échéances principales et je les laisse s’organiser comme ils le souhaitent",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je définis avec eux les jalons principaux, à ajuster ensemble au fur et à mesure, puis je les laisse s’organiser et me solliciter si nécessaire",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "Je permets à mes collaborateurs de me dire s’ils sont satisfaits de mon style de management :",
+                    "answers": [
+                        {
+                            "entitled": "En étant toujours ouvert aux remarques",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "En prévoyant un point spécifique dans les réunions d’équipe",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "En dédiant un temps pour ce sujet lors de nos points individuels",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Lors de l’évaluation 360°",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "J’ai une personne dans mon équipe qui a des conditions de travail spécifiques :",
+                    "answers": [
+                        {
+                            "entitled": "J’adapte mon animation d’équipe aux conditions spécifiques de ce collaborateur",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je le considère comme un autre membre de l’équipe",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "J’ai une vigilance particulière sur ce collaborateur étant donné ses conditions de travail différentes",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je laisse mon équipe « s’auto-organiser » pour tenir compte des conditions spécifiques de travail de ce collaborateur",
+                            "weight": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Comment je développe mon équipe ?",
+            "description": "Le développement de l’équipe est un thème fort du management.",
+            "image": "Illus4.svg",
+            "statements": [
+                {
+                    "question": "Un collaborateur a des difficultés lors d’un projet technique aux échéances serrées",
+                    "answers": [
+                        {
+                            "entitled": "Je le laisse sur le projet pour qu’il progresse sur le sujet",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je le laisse sur le projet mais je note qu’il faut éviter de le remettre sur des projets similaires",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je lui propose de sortir temporairement du projet pour y revenir plus tard",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je lui propose de continuer le projet en lui proposant l’aide d’un mentor ou d’un coach",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "Concernant les formations pour mon équipe :",
+                    "answers": [
+                        {
+                            "entitled": "Je regarde le catalogue de formations et je parle de celles qui me paraissent les plus adéquates à mon collaborateur lors de notre entretien, pour voir ce qu’il en pense",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Je partage toutes les possibilités de formation, pour que mon collaborateur sélectionne celles qui l’intéressent le plus",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Je me familiarise avec les principales offres et je les recommande à mon collaborateur au fil de l’eau, lorsque celui-ci rencontre des difficultés",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je partage avec mes collaborateurs toutes les formations susceptibles de les intéresser",
+                            "weight": 25
+                        }
+                    ]
+                },
+                {
+                    "question": "Un représentant des ressources humaines me contacte pour me notifier de l’ouverture d’un poste, dans notre domaine, au Japon. Julie m’a déjà confié à plusieurs reprises vouloir travailler là-bas",
+                    "answers": [
+                        {
+                            "entitled": "Je donne tout de suite son nom et une vive recommandation au représentant",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Je rediscute avec Julie de ses souhaits de mobilité avant de lui parler de l’opportunité",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Je fais un point avec chacune des personnes de mon équipe, dont Julie, sur leur souhait de mobilité, en leur parlant de celle-ci",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Je demande à Julie de contacter le représentant des ressources humaines",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "J’estime que je peux aider au développement des membres de mon équipe en :",
+                    "answers": [
+                        {
+                            "entitled": "Apportant mon expertise pour les aider à résoudre des difficultés sur les projets",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "M’inscrivant à des formations sur des sujets spécifiques au management",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Étant à l’écoute des demandes de mes collaborateurs",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Proposant à mon équipe de se former",
+                            "weight": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

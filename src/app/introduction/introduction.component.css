@@ -1,0 +1,47 @@
+* {
+    height: auto;
+}
+
+.all {
+    margin-bottom: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 15px;
+    padding-top: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: "- ";
+}
+
+h2, h3 {
+    color: #ff7900;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+div.cell {
+    padding: 15px;
+    width: 100%;
+}
+
+div.cell:nth-child(even) {
+    background-color: #efefef;
+}
+
+div.cell:nth-child(odd) {
+    background-color: white;
+}

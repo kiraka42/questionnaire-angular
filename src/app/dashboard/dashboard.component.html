@@ -1,0 +1,9 @@
+<div *ngFor="let theme of themeList; let idx=index">
+  <div>
+    <a routerLink="/theme/{{idx}}"> {{ theme.title }} </a>
+  </div>
+  <div>
+    {{ theme.description }}
+  </div>
+  <br>
+</div>

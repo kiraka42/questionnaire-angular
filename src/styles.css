@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: #ffffff;
+    font-family: sans-serif;
+}
+
+#head .cuppa-menu ul > li > a.active {
+    background: #ff7900 !important;
+}
+
+#head .cuppa-menu ul > li > a:hover {
+    background: #ff7900 !important;
+    color: white;
+}
+
+#head .cuppa-menu ul {
+    margin: 0;
+}
+#head .cuppa-menu ul > li {
+    height: auto;
+}
+
+#head .hamburger {
+    padding: 18px 33px;
+}
+
+#head .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background: #ff7900;
+}
+
+#head .cuppa-menu ul > li > a {
+    font-family: "Helvetica Neue";
+    color: black;
+    font-weight: bold;
+}

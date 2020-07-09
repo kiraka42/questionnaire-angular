@@ -1,0 +1,38 @@
+<app-head-band class="headband"></app-head-band>
+<div class="all">
+  <div class="cell">
+    <h2>Introduction</h2>
+    <p>
+      {{paragraphs[0][0]}}
+    </p>
+    <p>
+      {{paragraphs[0][1]}}
+      <span>{{paragraphs[1][0]}}</span>
+    </p>
+    <p>
+      {{paragraphs[0][2]}}
+    </p>
+  </div>
+  <div class="cell">
+    <h3>{{titles[0]}}</h3>
+    <ul>
+      <li>{{paragraphs[2][0]}}</li>
+      <li>{{paragraphs[2][1]}}</li>
+    </ul>
+  </div>
+  <div class="cell">
+    <h3>{{titles[1]}}</h3>
+    <p>
+      {{paragraphs[3][0]}}
+    </p>
+  </div>
+  <div class="cell">
+    <h3>{{titles[2]}}</h3>
+    <p>
+      {{paragraphs[4][0]}}
+    </p>
+  </div>
+</div>
+<div class="bouton">  
+  <app-buttons [isDuo]="FALSE" [isRight]="!FALSE" [isLeft]="FALSE" rightButton="Situations" (next)="situationPage()"></app-buttons>
+</div>

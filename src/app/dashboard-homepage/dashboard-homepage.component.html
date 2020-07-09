@@ -1,0 +1,5 @@
+<app-head-band class="headband"></app-head-band>
+<app-result class="result"></app-result>
+<div class="themes">
+  <app-theme *ngFor="let src of themeBackground; let idx=index" [nb]="idx+1" [urlImage]="src"></app-theme>
+</div>

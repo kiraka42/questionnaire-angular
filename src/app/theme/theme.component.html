@@ -1,0 +1,15 @@
+<div class="theme-block" routerLink="/situation/{{nb-1}}">
+  <div class="theme-block-image" [style.background-image]="urlImage"></div>
+  <div [ngStyle]="{ 'background-color': bgColor }" class="theme-block-text">
+    <div class="columnText">
+      <label class="theme-block-text-situation">Situation {{ nb }}</label>
+      <label [ngStyle]="{ 'color': txtColor }" class="theme-block-text-begin">{{ state }}</label>
+    </div>
+    <div class="score">
+      <img [src]="scoreImage" />
+    </div>
+    <div class="title">
+      {{ title }}
+    </div>
+  </div>
+</div>

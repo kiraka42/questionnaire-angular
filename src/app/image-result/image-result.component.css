@@ -1,0 +1,30 @@
+.image-result-block {
+  background-image: url("../../assets/svg/img_resultats_fond.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  height: 216px;
+  width: 100%;
+}
+
+.img1 {
+  position: absolute;
+  left: 30px;
+}
+
+.img2 {
+  position: absolute;
+  left: 112px;
+}
+
+.img3 {
+  position: absolute;
+  left: 195px;
+}
+
+.img4 {
+  position: absolute;
+  left: 278px;
+}

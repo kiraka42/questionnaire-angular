@@ -1,0 +1,9 @@
+<div class="buttons-block">
+  <div *ngIf="isLeft" class="buttons-block-accueil" (click)="prev.emit()">
+    <label class="accueil">{{leftButton}}</label>
+  </div>
+  <div *ngIf="isDuo" class="between"></div>
+  <div *ngIf="isRight" class="buttons-block-commencer" (click)="next.emit()">
+    <label class="commencer">{{rightButton}}</label> 
+  </div>
+</div>

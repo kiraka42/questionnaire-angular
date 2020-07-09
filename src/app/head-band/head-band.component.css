@@ -1,0 +1,69 @@
+.headband-block {
+  width: 96%;
+  height: 8%;
+  /* margin: auto; */
+  margin-right: 0;
+  margin-bottom: 2.7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* position: fixed; */
+}
+
+.headband-block-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.headband-block-language {
+  margin: -9px;
+  width: 120px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Helvetica Neue";
+  font-size: 1.125em;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.headband-block-language-not-selected {
+  width: 50%;
+  display: table;
+  background-color: #f2f2f2;
+  color: #8f8f8f;
+}
+
+.headband-block-language-selected {
+  width: 50%;
+  display: table;
+  background-color: #ffffff;
+  color: #ff7900;
+}
+
+.headband-block-language-en, .headband-block-language-fr {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 885px) {
+  /* .headband-block {
+    /* min-width: 382px;
+    max-width: 1040px;
+    height: 90px;
+    margin: 0; 
+    margin-bottom: 30px;
+  } */
+  .headband-block-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .headband-block-language {
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 885px) {
+  .themes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 882px;
+    margin: auto;
+    height: 634px;
+  }
+
+  app-theme {
+    max-height: 300px;
+    margin-bottom: 34px;
+  }
+}

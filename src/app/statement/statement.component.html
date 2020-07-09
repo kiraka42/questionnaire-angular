@@ -1,0 +1,24 @@
+<app-statement-header></app-statement-header>
+<div class="halfBody">
+  <div class="statement-block">
+    <div *ngFor="let answer of sliders; let idx=index" class="statement-block-answers">
+      <div class="statement-block-answer-proposition">
+        <app-answer [answerId]="idx"></app-answer>
+        <div class="statement-block-answer-proposition-slider">
+          <input type="text" [id]="idx" [name]="answer" value="" />
+        </div>
+        <p class="label">{{ getValue(idx) }}</p>
+      </div>
+      <div class="statement-block-checkbox">
+        <img [class]="'i'+idx" src='../../assets/LockIcon.svg' />
+        <input class="chkbx" type="checkbox" [checked]="isLocked[idx]" (change)="lockChecked(idx)" />
+      </div>
+    </div>
+    <div *ngIf="isFR">
+      <app-buttons isDuo="true" isLeft="true" isRight="true"leftButton="Précédent" rightButton="Suivant" (next)="nextStatement()" (prev)="prevStatement()"></app-buttons>
+    </div>
+    <div *ngIf="!isFR">
+      <app-buttons isDuo="true" isLeft="true" isRight="true"leftButton="Previous" rightButton="Next" (next)="nextStatement()" (prev)="prevStatement()"></app-buttons>
+    </div>
+  </div>
+</div>

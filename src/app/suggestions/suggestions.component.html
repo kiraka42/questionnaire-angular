@@ -1,0 +1,55 @@
+<div class="suggestions-block">
+  <div class="suggestions-block-personnages-block">
+    <div class="perso" id="i0">
+      <img [src]="persos[0]" alt="Perso0">
+    </div>
+    <div class="perso" id="i1">
+      <img [src]="persos[1]" alt="Perso1">
+    </div>
+    <div class="perso" id="i2">
+      <img [src]="persos[2]" alt="Perso2">
+    </div>
+    <div class="perso" id="i3">
+      <img [src]="persos[3]" alt="Perso3">
+    </div>
+  </div>
+  <div class="suggestions-block-myManagement">
+    <h1 class="myManagement-title">{{ title }}</h1>
+    <!-- <h1 class="myManagement-title"> <span>AM I </span><em>IN</em><span> ?</span> </h1> -->
+  <!--<div class="score">
+      <p>
+        Mon résultat : {{ themeScore }} - Niveau d'inclusivité : {{ niveauInclusivite }}
+      </p>
+      <p>
+        Résultat total : {{ totalScore }} - Niveau d'inclusivité total: {{ niveauInclusiviteTotal }}
+      </p>
+    </div>-->
+    <p class="suggestions-block-myManagement-informations">
+      {{ infos[niveauInclusivite] }}
+    </p>
+    <p class="suggestions-block-myManagement-otherInformations">
+      {{ otherInfos[niveauInclusivite] }}
+    </p>
+  </div>
+  <div class="suggestions-block-links" *ngIf="isSuggestions">
+    <h1 class="links-title">Suggestions</h1>
+    <p class="links-informations">
+      {{ suggestion1[themeId][niveauInclusivite-1] }}
+    </p>
+    <div class="links-informations-link1">
+      <a target="_blank" [href]="link1[themeId][niveauInclusivite-1]">{{linkButtonText}}</a>
+    </div>
+    <p class="links-otherInformations">
+      {{ suggestion2[themeId][niveauInclusivite-1] }}
+    </p>
+    <div class="links-informations-link2">
+      <a target="_blank" [href]="link2[themeId][niveauInclusivite-1]">{{linkButtonText}}</a>
+    </div>
+  </div>
+</div>
+<div *ngIf="isFR">
+  <app-buttons [isDuo]="isNotLastTheme" isLeft="true" [isRight]="isNotLastTheme" leftButton="Accueil" rightButton="Thème suivant" (next)="backHomepage()" (prev)="nextTheme()"></app-buttons>
+</div>
+<div *ngIf="!isFR">
+  <app-buttons [isDuo]="isNotLastTheme" isLeft="true" [isRight]="isNotLastTheme" leftButton="Homepage" rightButton="Next theme" (next)="backHomepage()" (prev)="nextTheme()"></app-buttons>
+</div>

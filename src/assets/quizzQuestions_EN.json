@@ -1,0 +1,368 @@
+{
+    "themes": [
+        {
+            "title": "Who is part of my team?",
+            "description": "Inclusive management begins with the arrival of a new employee and implies a reflection behind the composition of a team. Are too different profiles going to work well together? How to make my team work best?",
+            "image": "Illus1.svg",
+            "statements": [
+                {
+                    "question": "When I welcome a new employee, I look more specifically at:",
+                    "answers": [
+                        {
+                            "entitled": "Her/his life-skills and adaptability",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "Her/his complementarity with my team",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Her/his academic background",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Her/his previous experiences",
+                            "weight": 20
+                        }
+                    ]
+                },
+                {
+                    "question": "A new collaborator is joining my team, he wants to work 4 days a week, while all the other members of my team work full time:",
+                    "answers": [
+                        {
+                            "entitled": "I explain to them the difficulty of the situation and see with them how they can join the dynamics of the team's work.",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I offer them the alternative to work from home once a week for more flexibility without causing them to fall behind on projects.",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I'm afraid her/his absence would create a gap with the rest of the team in the long run",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I agree on the principle and suggest that we reflect together on a new way of working.",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "In a month, a foreigner employee will join my team:",
+                    "answers": [
+                        {
+                            "entitled": "I enquire about intercultural management",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I raise awareness among my team on intercultural issues",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I anticipate her/his arrival just like any other collaborators’ and plan to treat them like everyone else",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I might have to adapt the way the team works according to her/his needs",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "I have an apprentice from a school of design, who wants to join my team of developers from engineering schools:",
+                    "answers": [
+                        {
+                            "entitled": "I recommend them a team / department that better fits her/his profile",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I make sure they understand the job and remind them of the technical nature of the subject.",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I am not sure if I am able / know how to make full use of her/his skills",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I wonder what her/his differences could bring to our projects",
+                            "weight": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do I promote innovation and creativity in my team?",
+            "description": "Innovation and creation are two elements that are favoured by diverse teams, especially when they are driven by inclusive management. But respecting the differences is not always easy ...",
+            "image": "Illus2.svg",
+            "statements": [
+                {
+                    "question": "I have to think about a new customer offer and want to collect as many ideas as possible. I gather my team and:",
+                    "answers": [
+                        {
+                            "entitled": "I ask them to express her/his ideas directly, in order to get her/his spontaneous reactions",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I go around the table to make sure that everyone expresses her/his ideas",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I inform them about the subject, and ask them to think about it for the next meeting",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I give them a moment to reflect and write her/his ideas on post-its and then share it with the rest of the team",
+                            "weight": 25
+                        }
+                    ]
+                },
+                {
+                    "question": "To develop creativity in my team, other than her/his main activities:",
+                    "answers": [
+                        {
+                            "entitled": "I let my staff tell me if they want to work on other projects",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "My employees are free to use some of her/his time to work on side projects on business hours",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I assign the ancillary projects to my less busy employees",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I assign ancillary projects to my most creative employees",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "I compose a team for an important and innovative project about new technologies:",
+                    "answers": [
+                        {
+                            "entitled": "I compose a team who has already worked together and proven themselves on various projects",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I compose a team of young employees, well aware of the issues of new technologies",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I compose a team of new technologies experts",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I include a less experienced profile who has expressed the wish to work on these topics",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "One person of my team suggests a new work tool, but I do not think it matches the Orange environment:",
+                    "answers": [
+                        {
+                            "entitled": "We talk together, and I try to convince them that the tool is not suitable",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I ask them to explain to me why they thought about this particular tool",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I offer to them to test the tool directly with the team",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I suggest they discusses it with the other members of the team",
+                            "weight": 20
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How do I manage my team project?",
+            "description": "The animation of a team is a key factor of inclusive management. It consists of ensuring that the way I lead takes into account the diversity of profiles.",
+            "image": "Illus3.svg",
+            "statements": [
+                {
+                    "question": "One of the participants of my project meeting is a foreign employee, whose French is average. The meeting starts in English, but we quickly switch to French, and it seems to make the discussion easier for the rest of the group:",
+                    "answers": [
+                        {
+                            "entitled": "I reframe and request that the meeting be done in English",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I ask the person if it bothers them that we exchange in French, assuring them that her/his level is not a problem and that they can interrupt us to rephrase it in English",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I ask the person if it is ok to keep on speaking French and that they contribute in English if it makes it easier",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I request that we switch to English but allow French contributions when needed",
+                            "weight": 20
+                        }
+                    ]
+                },
+                {
+                    "question": "When I have to supervise a project with different business teams:",
+                    "answers": [
+                        {
+                            "entitled": "I request regular progress reports",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I let them organize themselves and let them know to get back to me when needed",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I ask them to respect the main deadlines and let them organize themselves as they wish",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I define with them the main milestones to adjust together progressively, then let them get organized and come to me if necessary",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "I allow my collaborators to let me know if they are satisfied with my management style by:",
+                    "answers": [
+                        {
+                            "entitled": "Being always open to remarks",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Planning a time to discuss it in team meetings",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Addressing the subject during our individual meetings",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "During the 360° evaluation",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "Someone in my team has specific working conditions:",
+                    "answers": [
+                        {
+                            "entitled": "I change the way I lead my team to adapt the specific conditions of this person",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I consider them the same way I consider the other members of my team",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I pay special attention to them, given her/his different working conditions",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I enable my team to \"self-organize\" around the specific working conditions of this person",
+                            "weight": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "How to develop my team?",
+            "description": "The development of a team is primordial for building a highly productive environment and reach better performances.",
+            "image": "Illus4.svg",
+            "statements": [
+                {
+                    "question": "An employee is facing issues during a technical project with short deadlines:",
+                    "answers": [
+                        {
+                            "entitled": "I keep them on the project so that they can progress on the subject",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I let them finish the project but keep in mind to avoid putting them back on similar projects",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I suggest that they leave the project temporarily and come back later",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I suggest to them to stay on the project by offering them a mentor or a coach",
+                            "weight": 30
+                        }
+                    ]
+                },
+                {
+                    "question": "Regarding my team training:",
+                    "answers": [
+                        {
+                            "entitled": "I exchange with my employee, during our individual meeting, about the trainings, that, in my opinion, seems most suitable for her/his position",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "I share the available trainings with my team, so my employees pick the one that they are interested by the most",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I look into the main training offers and recommend them along the way when my employee encounters difficulties.",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I share with my employees any training likely to interest them.",
+                            "weight": 25
+                        }
+                    ]
+                },
+                {
+                    "question": "An HR representative contacts me to notify me that a position has opened in our field in Japan. Julie has manifested many times her interest to work there",
+                    "answers": [
+                        {
+                            "entitled": "I propose Julie’s name for the position, with a strong recommendation",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "I discuss work mobility with Julie before informing her of the opportunity",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "I set an interview with each of the people in my team, including Julie, about her/his desire for mobility, and inform them about the opportunity in Japan",
+                            "weight": 30
+                        },
+                        {
+                            "entitled": "I suggest to Julie to contact the HR representative",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "question": "I contribute to the professional growth of my team by:",
+                    "answers": [
+                        {
+                            "entitled": "Bringing my expertise to help them solve her/his problems on projects",
+                            "weight": 10
+                        },
+                        {
+                            "entitled": "Registering for specific management topics training.",
+                            "weight": 25
+                        },
+                        {
+                            "entitled": "Listening to my collaborators’ requests",
+                            "weight": 20
+                        },
+                        {
+                            "entitled": "Suggesting to them to train",
+                            "weight": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

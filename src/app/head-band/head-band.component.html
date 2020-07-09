@@ -1,0 +1,12 @@
+<div id="head" class="headband-block">
+  <cuppa-slidemenu [config]="config" [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>
+  <!-- <img src="../../assets/OrangeDMD_Autodiag_Logo.png" alt="Orange" class="headband-block-logo" /> -->
+  <div class="headband-block-language">
+    <div [className]="ENStyle" (click)="setLanguage('EN')">
+      <label class="headband-block-language-en">EN</label>
+    </div>
+    <div [className]="FRStyle" (click)="setLanguage('FR')">
+      <label class="headband-block-language-fr">FR</label>
+    </div>
+  </div>
+</div>

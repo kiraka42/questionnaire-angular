@@ -1,0 +1,36 @@
+<div class="situation-block">
+  <div [ngStyle]="{ 'background-image': image }" class="situation-block-image"></div>
+  <div [ngStyle]="{ 'background-color': bgColor }" class="largeBlock">
+    <div  class="situation-block-header">
+      <div class="situation">
+        <p class="situation-number">Situation {{ themeId + 1 }}</p>
+        <p [ngStyle]="{ 'color': txtColor }" class="situation-status">{{ state }}</p>
+      </div>
+      <div class="situation-time-desktop">
+        <img src="../../assets/Illus.svg" alt="time" class="situation-time-desktop-icone">
+        <p class="situation-time-desktop-minutes">15mn</p>
+      </div>
+    </div>
+  </div>
+  <div class="situation-time-mobile">
+    <img src="../../assets/Illus.svg" alt="time" class="situation-time-mobile-icone">
+    <p class="situation-time-mobile-minutes">12mn</p>
+  </div>
+  <div class="toto">
+    <div class="situation-text">
+      <p class="situation-text-description1">
+        {{ title }}
+      </p>
+      <p class="situation-text-description2">
+        {{ description }}
+      </p>
+    </div>
+  </div>
+</div>
+<div *ngIf="isFR">
+  <app-buttons isDuo="true" isLeft="true" isRight="true" leftButton="Accueil" rightButton="Commencer" (next)="backHomepage()" (prev)="begin()"></app-buttons>
+</div>
+<div *ngIf="!isFR">
+  <app-buttons isDuo="true" isLeft="true" isRight="true" leftButton="Homepage" rightButton="Start" (next)="backHomepage()" (prev)="begin()"></app-buttons>
+</div>
+  

@@ -1,0 +1,16 @@
+* {
+    height: auto;
+}
+
+.answer-block {
+    width: 100%;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+}

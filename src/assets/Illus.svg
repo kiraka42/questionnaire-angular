@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Atom/Icon/Illus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+    </defs>
+    <g id="Atom/Icon/Illus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#4BB4E6" xlink:href="#path-1"></use>
+            <rect fill="#A885D8" mask="url(#mask-2)" x="-4" y="29" width="69" height="37"></rect>
+            <rect fill="#FFFFFF" mask="url(#mask-2)" x="0" y="21" width="60" height="19"></rect>
+        </g>
+        <g id="Group" transform="translate(6.000000, 6.000000)">
+            <circle id="Oval-3-Copy" fill="#D7D7D7" cx="24" cy="24" r="24"></circle>
+            <circle id="Oval-3-Copy" fill="#FF7900" cx="24" cy="24" r="20.7272727"></circle>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="22.9090909" y="4.36363636" width="2.18181818" height="4.36363636" rx="1.09090909"></rect>
+            <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="22.9090909" y="39.2727273" width="2.18181818" height="4.36363636" rx="1.09090909"></rect>
+            <rect id="Rectangle-3-Copy-2" fill="#FFFFFF" transform="translate(6.545455, 24.000000) rotate(90.000000) translate(-6.545455, -24.000000) " x="5.45454545" y="21.8181818" width="2.18181818" height="4.36363636" rx="1.09090909"></rect>
+            <rect id="Rectangle-3-Copy-3" fill="#FFFFFF" transform="translate(41.454545, 24.000000) rotate(90.000000) translate(-41.454545, -24.000000) " x="40.3636364" y="21.8181818" width="2.18181818" height="4.36363636" rx="1.09090909"></rect>
+            <rect id="Rectangle" fill="#FFB4E7" transform="translate(20.991972, 27.537426) rotate(-45.000000) translate(-20.991972, -27.537426) " x="15.5374262" y="26.4465171" width="10.9090909" height="2.18181818" rx="1.09090909"></rect>
+            <rect id="Rectangle" fill="#50BF87" transform="translate(32.238666, 22.771629) rotate(-10.000000) translate(-32.238666, -22.771629) " x="23.5113929" y="21.6807198" width="17.4545455" height="2.18181818" rx="1.09090909"></rect>
+        </g>
+    </g>
+</svg>
